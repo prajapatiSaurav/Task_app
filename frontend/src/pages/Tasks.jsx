@@ -22,7 +22,7 @@ export default function Tasks() {
   const fetchTasks = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:5000/api/tasks",
+        "https://task-app-4rb8.onrender.com/api/tasks",
         {
           headers: { Authorization: token },
         }
@@ -45,7 +45,7 @@ export default function Tasks() {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/tasks",
+        "https://task-app-4rb8.onrender.com/api/tasks",
         { title },
         {
           headers: { Authorization: token },
