@@ -50,10 +50,3 @@ A simple full-stack Task List app built using **Node.js, Express, PostgreSQL, Re
 
 ---
 
-## ▶️ Run Project
-
-### Backend
-```bash
-cd backend
-npm install
-npm run dev
