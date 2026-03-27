@@ -23,7 +23,7 @@ export default function Register() {
 
     try {
       await axios.post(
-        "http://localhost:5000/api/auth/register",
+        "https://task-app-4rb8.onrender.com/api/auth/register",
         { email, password }
       );
 
